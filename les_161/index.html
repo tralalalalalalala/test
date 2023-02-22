@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/zero.css" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/scss/css/zero.css" />
+  <link rel="stylesheet" href="/scss/css/style.css" />
   <title>les_16</title>
 </head>
 
@@ -84,31 +84,40 @@
 
                 <input type="checkbox" required id="get" name="Spam" class="summary__checkbox-input">
                 <label for="get" class="summary__checkbox-label">I want to get a spam.</label>
-
               </div>
-
-              <div class="summary__switcher">
+              <div class="summary__tytle-wrap">
                 <h2 class="summary__switcher-title">Choose the option</h2>
-
-                <input type="checkbox" required id="week" name="switcher" class="summary__switcher-input">
-                <label for="week" class="summary__switcher-label"></label>
-                <P class="summary__switcher-text">One message per week.</P>
-
-
               </div>
-
-              <div class="summary__switcher">
-
-
-                <input type="checkbox" required id="Three" name="switcher" class="summary__switcher-input">
-                <label for="Three" class="summary__switcher-label">Three messages per week.</label>
-
+              <div class="summary__switcher proba">
+                <div class="summary__inpuuts">
+                  <input type="checkbox" required id="week" name="switcher" class="summary__switcher-input">
+                  <label for="week" class="summary__switcher-label"></label>
+                </div>
+                <div class="summary__text">
+                  <P class="summary__paragraph">One message per week.</P>
+                </div>
               </div>
-              <div class="summary__switcher">
+              <div class="summary__switcher proba">
 
+                <div class="summary__inpuuts">
 
-                <input type="checkbox" required id="day" name="switcher" class="summary__switcher-input">
-                <label for="day" class="summary__switcher-label">Get up -to -date news every day :D</label>
+                  <input type="checkbox" required id="Three" name="switcher" class="summary__switcher-input">
+                  <label for="Three" class="summary__switcher-label"></label>
+                </div>
+                <div class="summary__text">
+                  <p class="summary__paragraph">Three messages per week.</p>
+                </div>
+              </div>
+              <div class="summary__switcher proba">
+                <div class="summary__inpuuts">
+
+                  <input type="checkbox" required id="day" name="switcher" class="summary__switcher-input">
+                  <label for="day" class="summary__switcher-label"></label>
+                </div>
+
+                <div class="summary__text">
+                  <p class="summary__paragraph">Get up -to -date news every day :D</p>
+                </div>
 
               </div>
 
@@ -121,15 +130,18 @@
               </div>
             </div>
 
-          </form>
+
         </div>
+
+        </form>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__row"><a href="#" class="footer__text">tralala</a></div>
-      </div>
-    </footer>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row"><a href="#" class="footer__text">tralala</a></div>
+    </div>
+  </footer>
   </div>
 </body>
 
